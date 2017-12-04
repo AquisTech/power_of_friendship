@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 5.1.4"
-  s.add_dependency "squeel"
+  s.add_dependency "squeel", '~> 1.2.3'
 
   s.add_development_dependency "pg"
   s.add_development_dependency 'rspec-rails'
